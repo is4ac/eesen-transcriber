@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
       config.vm.network "private_network", ip: "192.168.56.101"
 
       vbox.cpus = 2
-      vbox.memory = 8192
+      vbox.memory = 12288
     end
 
     config.vm.provider "aws" do |aws, override|
